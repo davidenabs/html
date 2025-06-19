@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: purple;
+}
+
+h5 {
+    color: orange;
+}
+
+h6 {
+    color: brown;
+}
+
+#main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#first {
+    color: purple
+}
+
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
