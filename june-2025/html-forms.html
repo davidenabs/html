@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form action="" method="">
+        <!-- 
+        Methods: GET (default) and POST.
+        -->
+
+        <label>First Name</label> <br />
+        <input type="text" name="firstName" placeholder="Enter your first name" />
+        <br />
+        <br />
+        <label>Second Name</label> <br />
+        <input type="text" name="secondName" />
+
+        <br />
+        <br />
+        <label>Email</label> <br />
+        <input type="email" name="email" placeholder="Enter your email" />
+
+        <br />
+        <br />
+        <label>Phone number</label> <br />
+        <input type="tel" name="phoneNumber" />
+
+        <br />
+        <br />
+        <label>Password</label> <br />
+        <input type="password" name="password" />
+
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="image" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
