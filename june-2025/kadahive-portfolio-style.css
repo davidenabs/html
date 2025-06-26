@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #009e3a;
+}
+
+.subtitle {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subtitle-2 {
+    font-size: 18px;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+.subtitle-body {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    color: #bbb;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    /* color: white; */
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    font-size: 35px;
+    -webkit-text-stroke: 0.5px #fff;
+    font-weight: 900;
+}
+
+.bio {
+    font-size: 13px;
+    max-width: 80%;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.service-box {
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.service-box .subtitle-body {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project-box .subtitle-body {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact form input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #009e3a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background: #007a2b;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #2A7B9B;
+    color: white;
+    border-radius: 10px;
+}
+
