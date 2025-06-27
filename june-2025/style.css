@@ -21,6 +21,10 @@ h1, h2, h3 {
     color: white
 }
 
+.title span {
+    color: #e74c3c;
+}
+
 .sub-head {
     font-size: 30px;
     margin-bottom: 10px;
