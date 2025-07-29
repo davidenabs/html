@@ -83,6 +83,15 @@ header img {
 
 .container {
     padding: 20px;
+    background-image: url('https://cdn.green-forum.eu/images/articles/lead/2024/02/1706769717-DcuOudDBc_md.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .services {
@@ -98,6 +107,8 @@ header img {
     background: #fff;
     border-radius: 10px;
     padding: 10px;
+    text-align: justify;
+    text-decoration: line-through;
 }
 .service-box .subtitle-body {
     font-size: 13px;
@@ -113,6 +124,9 @@ header img {
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
+    background-image: url("https://t4.ftcdn.net/jpg/14/74/79/49/360_F_1474794959_snoQoPKuAuNhlgnA0ZvMtzJc1z00iq0z.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-box .subtitle-body {
