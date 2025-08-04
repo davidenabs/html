@@ -57,3 +57,31 @@ body {
      color: orange;
      padding-top: 20px;
 }
+
+.section {
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.about-image {
+    border-radius: 15px;
+}
+
+.about-content {
+    background-color: #333;
+    text-align: justify;
+    width: 50%;
+    height: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nexus-text {
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: underline;
+}
