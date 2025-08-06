@@ -73,7 +73,7 @@ body {
     background-color: #333;
     text-align: justify;
     width: 50%;
-    height: 180px;
+    height: 300px;
     padding: 20px;
     border-radius: 10px;
     color: white;
@@ -96,4 +96,24 @@ body {
     /* text-align: justify; */
     padding: 20px;
     text-transform: uppercase;
+}
+.about-button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.about-button:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
 }
